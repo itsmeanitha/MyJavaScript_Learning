@@ -1,5 +1,8 @@
 # JavaScript_Learning
+## (⚠️DO NOT PUSH ANYTHING INTO MAIN BRANCH⚠️)
 This repo is made for noting down my journey of learning .js
+## What to do after getting this repo to you? 
+> You need to create a feature branch of your name, and push the solutions of the challenges present in the main branch.
 ## In this I would be posting everything what I learnt / what I practiced.
 ### Complete all the challenges and post your solutions by creating a new branch of your own! 
 - Challenge 1 [Uploaded] ✅
