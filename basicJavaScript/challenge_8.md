@@ -12,5 +12,5 @@
 6. Create an Amazon Shipping Calculator. 
 > What is an Amazon Shipping Calculator? 
 >> There is an input box where you're only allowed to enter the numbers (no string).
->>> if the number is greater than 8, add (+10) and display the answer '$18'
->>> and if the number is less or equal to 8, return/display the number as it is. '$8'.
+>>> If the number is greater than 8, add (+10) and display the answer '$18' <br />
+>>> And if the number is less or equal to 8, return/display the number as it is. '$8'.
