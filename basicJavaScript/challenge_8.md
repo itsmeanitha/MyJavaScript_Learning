@@ -7,8 +7,8 @@ You chose: heads
 - When clicking on the tails display:<br />
 You chose: tails <br />
 (You need to display in a paragraph (< p >) tag)
-4. Create a text box and a sumbit button. When clicking 'Sumbit' button, display the text as: [You name is: Simon] in a <p> tag (and this name you need to take the user's input).
-5. Modify (4)th qos in such a way that if you press "enter" in the <input>, it will also display the same message on the page that you're displaying above in qos-4. 
+4. Create a text box and a sumbit button. When clicking 'Sumbit' button, display the text as: [You name is: Simon] in a < p > tag (and this name you need to take the user's input).
+5. Modify (4)th qos in such a way that if you press "enter" in the < input >, it will also display the same message on the page that you're displaying above in qos-4. 
 
 ## Challenge Exercise
 6. Create an Amazon Shipping Calculator. 
