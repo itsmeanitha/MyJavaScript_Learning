@@ -6,10 +6,10 @@ This repo is made for noting down my journey of learning .js
 ## In this I would be posting everything what I learnt / what I practiced.
 
 ## All the exercises regarding [Basic javaScript] are present in: 
-basicJavaScript folder
+> basicJavaScript folder
 
 ## All the challenger exercises are present in folder: 
-challengers
+> challengers
 
 ### Complete all the challenges and post your solutions by creating a new branch of your own! 
 - Challenge 1 [Uploaded]  ✅
