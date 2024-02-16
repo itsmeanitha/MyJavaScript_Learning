@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="alert(`Quantity: ${Quantity}`)">Show Quantity</button>
+    <button onclick="Quantity+=4">+4</button>
+    <button onclick="Quantity+=5">+5</button>
+    <button onclick="Quantity-=1">remove from cart</button>
+    <button onclick="Quantity-=2">-2</button>
+    <button onclick="Quantity-=3">-3</button>
+    <button onclick="Quantity=0; alert(`The new Quantity: ${Quantity}`);">Reset</button>
+
+    <script> 
+        // 5.a) create a variable called "name", and save your name in this variable (as a string)
+        let name="Anitha Susai Raj";
+
+        // 5.b) display the message "My name is: ${name}" in the console (insert the 'name' variable created in 5a into this message) 
+       alert(`My name is: ${name}`)
+
+        // 5.c) At a restraurant, you order 1 coffee ($5), 2 bagals ($3 each), and 1 soup ($9). Calculate the cost and save it in a variable called 'cost'
+      let coffee=5
+       let bagel=3
+       let soup=9
+       let cost=coffee+(2*bagel)+soup
+        
+
+        // 5.d) display "cost of food: $${cost}" in the console
+        alert(`cost of food: $${cost}`)
+
+        // 5.e) calculating 10% tax
+        let tax=cost*0.1
+
+        // 5.f) display "Tax (10%): $${tax}" in the console
+        alert(`Tax (10%): $${tax}`);
+
+        // 5.g) calculate the total (cost+tax), save it in a variable called "totalcost", and display the message "Total cost: $${totalcost}" in the console
+       let totalcost=cost+tax;
+         alert(`Total cost: $${totalcost}`);
+
+      
+
+
+        
+    </script>
+</body>
+</html>
