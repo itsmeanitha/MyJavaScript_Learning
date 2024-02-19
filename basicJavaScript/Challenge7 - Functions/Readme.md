@@ -8,4 +8,4 @@ Create a function 'convertTemperature(degree,unit)' that takes a number and a un
 e.g. -> f (is correct input) 
 	fah (is not correct input: because it's taking more than 1 character). *
 
-https://github.com/itsmeanitha/MyJavaScript_Learning/assets/96894458/bbaccb88-f443-4681-bb48-1c227f26ab67
+https://github.com/itsmeanitha/MyJavaScript_Learning/assets/96894458/b21fa0d0-5823-4599-8e95-042ca2ae072d
