@@ -56,6 +56,7 @@ var number=Math.random().toFixed(2);
 console.log("The random number is: "+number);
 //ternery operators
 (number>0.5)?console.log('heads'):console.log('tails');
+<<<<<<< HEAD
 /*6.e. Create a Cart_Quantity Project. 
 - Go to exercise 5.k. 
 - Let's say the cart has a maximum quantity of 10. before updating the quantity, check if the quantity will be greater than 10: 
@@ -63,3 +64,6 @@ console.log("The random number is: "+number);
 - And in case of -2,-3 before updating the quantity in cart, check if it is equals to 0 or not.
 (1) if it's equal to 0, display "Not enough items in the cart" else just update the cart. 
 */
+=======
+
+>>>>>>> 9e97c653759270bd93e30cce55ac7020b93cedb6
