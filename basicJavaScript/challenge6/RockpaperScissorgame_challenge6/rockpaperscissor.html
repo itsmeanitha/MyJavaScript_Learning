@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Rock, Paper, Scissors Game</h2>
+
+<button onclick="rockpaperscissor()">Enter to play the Game</button>
+
+<script>
+function rockpaperscissor() {
+    let computerChoice = Math.floor(Math.random() * 3); // Generating a random value between 0 and 2
+    
+    let yourChoice = parseInt(prompt("Enter your choice between 0 to 2: "));
+    
+   
+        if (computerChoice === yourChoice) {
+            console.log(`You won 🏆\n\ncomputer Choice is: ${computerChoice}\nyour Choice is: ${yourChoice}`);
+            alert(`You won 🏆\n\ncomputer Choice is: ${computerChoice}\nyour Choice is: ${yourChoice}`);
+      
+        } else {
+            console.log(`You lose 👎, TRY AGAIN\n\ncomputer Choice is: ${computerChoice}\nyour Choice is: ${yourChoice}`);
+            alert(`You lose 👎, TRY AGAIN\n\ncomputer Choice is: ${computerChoice}\nyour Choice is: ${yourChoice}`);
+        }
+    }
+
+</script>
+
+</body>
+</html>

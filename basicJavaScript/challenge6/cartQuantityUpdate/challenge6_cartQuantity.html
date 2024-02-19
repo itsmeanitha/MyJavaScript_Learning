@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Quantity Update</title>
+</head>
+<body>
+ <!6.e. Create a Cart_Quantity Project. 
+- Go to exercise 5.k. 
+- Let's say the cart has a maximum quantity of 10. before updating the quantity, check if the quantity will be greater than 10: 
+(1): if it is greater display: "the cart if full" else update the quantity in the cart. 
+- And in case of -2,-3 before updating the quantity in cart, check if it is equals to 0 or not.
+(1) if it's equal to 0, display "Not enough items in the cart" else just update the cart. 
+>
+    <button onclick="showQuantity()">Show Quantity</button>
+    <button onclick="updateQuantity(4)">+4</button>
+    <button onclick="updateQuantity(5)">+5</button>
+    <button onclick="updateQuantity(-1)">Remove from Cart</button>
+    <button onclick="updateQuantity(-2)">-2</button>
+    <button onclick="updateQuantity(-3)">-3</button>
+    <button onclick="resetQuantity()">Reset</button>
+
+    <script>
+        let Quantity = 0;
+
+        function showQuantity() {
+            if (Quantity > 10) {
+                console.log(`Quantity is ${Quantity}\nThe cart is full!`);
+                alert(`Quantity is ${Quantity}\nThe cart is full!`);
+            } else if (Quantity <= 0) {
+                console.log(`Quantity is ${Quantity}\nNot enough items in the cart`);
+                alert(`Quantity is ${Quantity}\nNot enough items in the cart`);
+            } else {
+                console.log(`Quantity: ${Quantity}`);
+                alert(`Quantity: ${Quantity}`);
+            }
+        }
+
+        function updateQuantity(addquantity) {
+            Quantity += addquantity;
+            showQuantity();
+        }
+
+        function resetQuantity() {
+            Quantity = 0;
+            alert(`The Quantity now is: ${Quantity}`);
+        }
+    </script>
+
+</body>
+</html>

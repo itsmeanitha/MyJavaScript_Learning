@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Current Hour</h2>
+
+<button onclick="currenttime()"> Input</button>
+
+<script>
+function currenttime(){
+let hour = prompt('Enter the hour');
+if(hour>=6 && hour<12 ){
+    console.log("good morning");
+    alert("good morning");
+}
+else if(hour>=13 && hour<17 ){
+    console.log("good afternoon");
+    alert("good afternoon");
+}
+else if(hour>17) {
+    console.log("good night");
+    alert("good night");
+}else {
+    console.log("Invalid input");
+    alert("Invalid input");
+  }
+}
+</script>
+
+</body>
+</html>
