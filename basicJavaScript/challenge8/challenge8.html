@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Challenges</title>
+    <!task1--Create a button named as 9a, and display the name of the button into console. >
+    <button id="btn9a" onclick="displayButtonName()">9a</button>
+    <!task2--create another button named as 9b, and using .js, change the text in the second button to 9b done >
+    <button id="btn9b" onclick="changeButtonName()">9b</button>
+<!task3--Create (two) button named as: heads and tails. >
+ <button id="btnhead" onclick="chooseSide('heads')">Heads</button>
+  <button id="btntails" onclick="chooseSide('tails')">Tails</button>
+  <p id="resultParagraph"></p>
+  <!task4--Create a text box and a sumbit button. When clicking 'Sumbit' button, display the text as: [You name is: Simon] in a  p  tag (and this name you need to take the user's input).>
+  <input type="text" id="nameInput" onkeydown="submitonEnter(event)">
+  <button id="btnsubmit" onclick="submitName()">Submit</button>
+  <p id="nameresult"></p>
+  <!5.task5-- Modify (4)th qos in such a way that if you press "enter" in the  input , it will also display the same message on the page that you're displaying above in qos-4. >
+   
+   <script>
+        //task1 
+            function displayButtonName() {
+        console.log(document.getElementById('btn9a').innerText );
+        
+    }
+    //task2 
+    function changeButtonName() {
+        document.getElementById('btn9b').innerText = '9b done';
+        
+    }
+    //task3 
+    function chooseSide(side) {
+         document.getElementById('resultParagraph').innerText = `You chose: ${side}`;
+        
+    }
+    //task4
+    function submitName(){
+    let name=document.getElementById('nameInput').value
+     document.getElementById('nameresult').innerText = `Your name is: ${name}`;
+    }
+    //task5
+    function submitonEnter(event){
+        if(event.key=='Enter'){
+            submitName()
+        }
+
+    }
+            
+    </script>
+</head>
+<body>
