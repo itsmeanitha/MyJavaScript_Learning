@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <button onclick="alert(`Quantity: ${Quantity}`)">Show Quantity</button>
+   
+    <button onclick="showQuantity()">Show Quantity</button>
     <button onclick="Quantity+=4">+4</button>
     <button onclick="Quantity+=5">+5</button>
     <button onclick="Quantity-=1">remove from cart</button>
@@ -42,8 +42,21 @@
        let totalcost=cost+tax;
          alert(`Total cost: $${totalcost}`);
 
-      
+      /*5.h. In the cart quantity project, add 2 more buttons "+4" and "+5", which increases the quantity by 4 and 5 when you click them. Try using +=
 
+5.i. In the cart quantity project, add a button "remove from cart", which decreases the cart quantity by 1. 
+
+5.j. Add 2 buttons '-2' and '-3', which decrease the quantity by 2 and 3. 
+
+5.k. Creating a basic calculator that can perform very simple steps: like 
+1+2=3 (where 1,2,+ are the buttons) */
+ // Initializing Quantity variable
+ let Quantity = 0;
+
+// Function to show Quantity in an alert
+function showQuantity() {
+    alert(`Quantity: ${Quantity}`);
+}
 
         
     </script>
