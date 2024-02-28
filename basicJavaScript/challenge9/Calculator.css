@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+*{
+background-color: black;
+}
+
+.greybutton{
+color: white;
+border: none;
+border-radius: 150%;
+border-color: white;
+padding: 20px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 26px;
+margin: 4px 2px;
+cursor: pointer;
+background-color: grey;
+}
+
+.yellowbutton{
+color: white;
+border:none;
+border-radius: 150%;
+border-color: white;
+padding: 20px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 26px;
+margin: 4px 2px;
+cursor: pointer;
+background-color: rgb(254,160,10);
+}
+.Outputdisplay{
+color: black;
+background-color: rgb(230,230,230);
+border: 10px;
+border-radius: 8px;
+padding: 15px 40px;
+font-size: larger;
+font-weight: bold;
+width: 13em;
+margin-top: 2em;
+}

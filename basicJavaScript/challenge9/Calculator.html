@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    
+    <input type="text" class="Outputdisplay" id="result">
+    <br><br>
+    <input type="button" class="greybutton" id="one" value="1" onclick="display('1')">
+    <input type="button" class="greybutton" id="two" value="2" onclick="display('2')">
+    <input type="button" class="greybutton" id="three" value="3" onclick="display('3')">
+    <input type="button" class="yellowbutton" id="add" value="+" onclick="display('+')">
+    <br><br>
+    <input type="button" class="greybutton" id="4" value="4" onclick="display('4')">
+    <input type="button" class="greybutton" id="5" value="5" onclick="display('5')">
+    <input type="button" class="greybutton" id="6" value="6" onclick="display('6')">
+    <input type="button" class="yellowbutton" id="sub" value="-" onclick="display('-')">
+    <br><br>
+    <input type="button" class="greybutton" id="7" value="7" onclick="display('7')">
+    <input type="button" class="greybutton" id="8" value="8" onclick="display('8')">
+    <input type="button" class="greybutton" id="9" value="9" onclick="display('9')">
+    <input type="button" class="yellowbutton" id="mul" value="*" onclick="display('*')">
+    <br><br>
+    <input type="button" class="greybutton" id="0" value="0" onclick="display('0')">
+    <input type="button" class="greybutton" id="point" value="." onclick="display('.')">
+    <input type="button" class="greybutton" id="equalId" value="=" onclick="answer()">
+    <input type="button" class="greybutton" id="divison" value="/" onclick="display('/')">
+    <br><br>
+    <input type="button" class="greybutton" id="clear" value="Clear" onclick="clearDisplay()">
+    <script src="Calculator.js"></script>
+    
+</body>
+</html>

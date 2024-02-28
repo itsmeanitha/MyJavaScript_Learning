@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different types of buttons</title>
+    <link rel="stylesheet" href="Challenge9.css">
+</head>
+<body>
+    <h3>Amazon button</h3>
+    <input type="button" class="amazon" id="amazon-button" value="Add to Cart">
+    <br><br>
+
+    <h3>Uber buttons</h3>
+    <input type="button" class="uberrequest" id="uber-button1" value="Request now">
+    <input type="button" class="uberschedule" id="uber-button2" value="Schedule for later">
+    <br><br><br>
+
+    <h3>Test buttons</h3>
+    <input type="button" class="js-button" id="js" value="Test">
+    <br><br>
+
+    <button onclick="isToggled('gameId')" type="button" class="gamingClass" id="gameId" value="Gaming">
+        Gaming
+    </button>
+    <button onclick="isToggled('musicId')" type="button" class="musicClass" id="musicId" value="Music">
+        Music
+    </button>
+    <button onclick="isToggled('techId')" type="button" class="techClass" id="techId" value="Tech">
+        Tech
+    </button>
+    <br><br>
+
+    <label for="amazonValue">Enter cost:</label>
+    <input type="number" id="amazonValue">
+    <button class="calculate" onclick="errorMessage()">Calculate</button>
+    <p class="errorMessage" id="ErrorMessage"></p>
+    <script src="Challenge9.js"></script>
+</body>
+</html>
